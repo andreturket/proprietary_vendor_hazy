@@ -1,0 +1,3 @@
+add_lunch_combo hazy_shamu-userdebug
+add_lunch_combo hazy_angler-userdebug
+add_lunch_combo hazy_flounder-userdebug
