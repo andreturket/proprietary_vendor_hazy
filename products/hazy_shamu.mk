@@ -1,13 +1,13 @@
 #
-# Inlude noobbuilds common configuration
-include vendor/noobbuilds/main.mk
+# Inlude Hazy common configuration
+include vendor/hazy/main.mk
 
 # Inherit AOSP device configuration for shamu
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
 
 # Override AOSP build properties
-PRODUCT_NAME := noobbuilds_n6
+PRODUCT_NAME := hazy_shamu
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6
