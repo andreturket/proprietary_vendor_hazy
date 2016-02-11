@@ -47,6 +47,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/hazy/overlays/common
 
+# Hazy apps
+PRODUCT_PACKAGES += \
+    HCamera \
+    HManager
+
 # Needed Packages
 PRODUCT_PACKAGES += \
     Busybox \
