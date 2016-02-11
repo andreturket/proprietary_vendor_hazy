@@ -83,3 +83,8 @@ $(call inherit-product, vendor/hazy/extras/device-partial.mk)
 
 # Inherit Minimal Gapps
 # $(call inherit-product-if-exists, vendor/hazy/google_apps/device-partial.mk)
+
+# Hazy apps
+# BUILD_PREBUILT += \
+#	$(LOCAL_PATH)/app/HCamera/HCamera.apk:system/app/HCamera/HCamera.apk \
+#	$(LOCAL_PATH)/app/HManager/HManager.apk:system/app/HManager/HManager.apk
