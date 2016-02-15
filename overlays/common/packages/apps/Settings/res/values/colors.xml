@@ -15,6 +15,6 @@
 -->
 
 <resources>
-    <color name="switchbar_background_color">#ffFFE082</color>
+    <color name="switchbar_background_color">#ff00796B</color>
     <color name="switch_accent_color">#ffFFC107</color>
 </resources>
