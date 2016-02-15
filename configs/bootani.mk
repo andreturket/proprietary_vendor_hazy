@@ -11,5 +11,5 @@ endif
 
 ifneq ($(filter hazy_deb hazy_flo,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/hazy/prebuilts/bootanimation/1920x1200.zip:system/media/bootanimation.zip
+        vendor/hazy/prebuilts/bootanimation/flo.zip:system/media/bootanimation.zip
 endif
