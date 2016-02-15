@@ -21,7 +21,6 @@
 
     <color name="accent_material_light">#ffFFC107</color>
 
-    <color name="switch_thumb_normal_material_light">#ffFFC107</color>
     <color name="primary_text_default_material_light">#ff212121</color>
     <color name="secondary_text_default_material_light">#ff727272</color>
 
