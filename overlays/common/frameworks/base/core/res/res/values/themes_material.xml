@@ -20,9 +20,6 @@
         <item name="colorPrimaryDark">#ff00796B</item>
         <item name="colorPrimary">#ff009688</item>
         <item name="colorAccent">#ffFFC107</item>
-        <item name="textColorPrimary">#ff212121</item>
-        <item name="textColorSecondary">#ff727272</item>
-
     </style>
 
     <style name="Theme.Material.Settings" parent="Theme.Material.Light.DarkActionBar">
