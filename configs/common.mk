@@ -2,7 +2,7 @@
 PRODUCT_BRAND ?= hazy
 
 ifndef ROM_BUILDTYPE
-    ROM_BUILDTYPE := Alpha
+    ROM_BUILDTYPE := stable
 endif
 
 TARGET_PRODUCT_SHORT := $(TARGET_PRODUCT)
@@ -21,8 +21,8 @@ endif
 
 # Apply it to build.prop
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=Hazy5-$(ROM_VERSION) \
-    ro.hazy.version=Hazy5-$(ROM_BUILDTYPE) \
+    ro.modversion=Hazy5-$(HAZY_VERSION) \
+    ro.hazy.version=Hazy5 \
     ro.hazy.date=$(shell date -u +%Y-%m-%d)
 
 # Local path for prebuilts
