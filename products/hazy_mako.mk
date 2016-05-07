@@ -18,14 +18,11 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
-# Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# Include noobbuilds common configuration
+include vendor/hazy/main.mk
 
-# Inherit some common Hazy stuff.
-$(call inherit-product, vendor/hazy/products/common.mk)
-
-# Inherit device configuration
-$(call inherit-product, device/lge/mako/full_mako.mk)
+# Inherit AOSP device configuration for angler
+$(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako

@@ -1,10 +1,10 @@
 # Add Hazy bootanimation based on device resolution
-ifneq ($(filter hazy_mako hazy_manta full_grouper full_tilapia,$(TARGET_PRODUCT)),)
+ifneq ($(filter hazy_manta full_grouper full_tilapia,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/hazy/prebuilts/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
 
-ifneq ($(filter hazy_angler hazy_bullhead hazy_shamu hazy_hammerhead hazy_bacon hazy_falcon,$(TARGET_PRODUCT)),)
+ifneq ($(filter hazy_angler hazy_bullhead hazy_shamu hazy_hammerhead hazy_bacon hazy_falcon hazy_mako,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/hazy/prebuilts/bootanimation/shamu.zip:system/media/bootanimation.zip
 endif
