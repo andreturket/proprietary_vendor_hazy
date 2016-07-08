@@ -77,6 +77,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     $(LOCAL_PATH)/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 endif
+
+# Backup Services whitelist
+PRODUCT_COPY_FILES += \
+    vendor/hazy/configs/permissions/backup.xml:system/etc/sysconfig/backup.xml
         
 # Init.d script support
 PRODUCT_COPY_FILES += \
