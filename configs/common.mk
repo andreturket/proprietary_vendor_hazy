@@ -97,3 +97,8 @@ $(call inherit-product, vendor/hazy/extras/device-partial.mk)
 # BUILD_PREBUILT += \
 #	$(LOCAL_PATH)/app/HCamera/HCamera.apk:system/app/HCamera/HCamera.apk \
 #	$(LOCAL_PATH)/app/HManager/HManager.apk:system/app/HManager/HManager.apk
+
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/hazy/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/hazy/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
