@@ -100,5 +100,5 @@ $(call inherit-product, vendor/hazy/extras/device-partial.mk)
 
 # SuperSU
 PRODUCT_COPY_FILES += \
-    vendor/hazy/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/hazy/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+    vendor/hazy/prebuilts/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/hazy/prebuilts/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
